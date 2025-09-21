@@ -6,6 +6,7 @@
 
 ```sh
 docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d
+docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d --build cvat_ui # 因為預設沒有 cvat_ui 所以這邊要另外建立以修改後的 cvat_ui
 ```
 
 成功執行後再執行
